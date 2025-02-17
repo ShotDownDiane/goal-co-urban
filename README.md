@@ -90,5 +90,8 @@ python3 finetune.py
 ## Data
 Test and fine-tuning data are provided in the ```data/``` directory.
 
+Training datasets can be downloaded from [https://download.europe.naverlabs.com/dataset/goal_datasets.tar.gz](here).
+
 Pretrained models are provided in the ```pretrained/``` directory. 
+
 
