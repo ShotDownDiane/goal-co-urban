@@ -2,7 +2,7 @@
 
 We provide the code to learn to solve 16 standard combinatorial optimization problems.
 
-Multi-task model is pretrained on eight problems:
+The multi-task model is pre-trained on eight problems:
 * the Asymetric Traveling Salesman Problems (ATSP)
 * the Capacitated Vehicle Routing Problem (CVRP)
 * the Capacitated Vehicle Routing Problem with Time Windows (CVRPTW)
@@ -10,7 +10,7 @@ Multi-task model is pretrained on eight problems:
 * the Knapsack Problem (KP)
 * the Minimum Vertex Covering (MVC)
 * the Unrelated Parallel Machihe Scheduling (UPMS)
-* the Job-Shop Schedulling Problem (JSSP)
+* the Job-Shop Scheduling Problem (JSSP)
 
 Fine-tuning (supervised and unsupervised) is possible on eight new problems:
 * the Traveling Repairman Problem (TRP)
@@ -20,21 +20,21 @@ Fine-tuning (supervised and unsupervised) is possible on eight new problems:
 * the Sequential Ordering Problem (SOP)
 * the Maximal Independent Set (MIS)
 * the Maximum Covering Location Problem (MCLP)
-* the Open-Shop Schedulling Problem (OSSP)
+* the Open-Shop Scheduling Problem (OSSP)
 
 
 ## Paper
-See [GOAL: A Generalist Combinatorial Optimization Agent Learning](https://arxiv.org/abs/2406.15079) for the paper associated with this codebase.
+See [GOAL: A Generalist Combinatorial Optimization Agent Learning](https://openreview.net/forum?id=z2z9suDRjw) for the paper associated with this codebase.
 If you find this code useful, please cite our paper as: 
 
  ``` 
 @article{
-    drakulic2024goal,
-    title={GOAL: A Generalist Combinatorial Optimization Agent Learning},
+    drakulic2025goal,
+    title={GOAL: A Generalist Combinatorial Optimization Agent Learner},
     author={Darko Drakulic and Sofia Michel and Jean-Marc Andreoli},
-    journal = {arXiv:2406.15079 [(cs.LG)]},,
-    year={2024},
-    url={https://arxiv.org/abs/2406.15079},
+    booktitle={International Conference on Learning Representations (ICLR)},
+    year={2025},
+    url={https://openreview.net/forum?id=z2z9suDRjw},
 }
 ``` 
 
@@ -68,7 +68,7 @@ For all test options
 python3 test.py -h
 ```
 
-## Fine-tuning the pretrained model
+## Fine-tuning the pre-trained model
 
 ### Supervised
 ```
