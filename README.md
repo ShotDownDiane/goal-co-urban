@@ -24,7 +24,7 @@ Fine-tuning (supervised and unsupervised) is possible on eight new problems:
 
 
 ## Paper
-See [GOAL: A Generalist Combinatorial Optimization Agent Learning](https://openreview.net/forum?id=z2z9suDRjw) for the paper associated with this codebase.
+See [GOAL: A Generalist Combinatorial Optimization Agent Learner](https://openreview.net/forum?id=z2z9suDRjw) for the paper associated with this codebase.
 If you find this code useful, please cite our paper as: 
 
  ``` 
