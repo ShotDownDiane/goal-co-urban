@@ -1,4 +1,21 @@
-# GOAL: A Generalist Combinatorial Optimization Agent Learning
+
+# <center> [GOAL: A Generalist Combinatorial Optimization Agent Learner](https://openreview.net/forum?id=z2z9suDRjw) </center> 
+### Published as a conference paper at ICLR 2025 
+
+If you find this code useful, please cite our paper as: 
+
+ ``` 
+@article{
+    drakulic2025goal,
+    title={GOAL: A Generalist Combinatorial Optimization Agent Learner},
+    author={Darko Drakulic and Sofia Michel and Jean-Marc Andreoli},
+    booktitle={International Conference on Learning Representations (ICLR)},
+    year={2025},
+    url={https://openreview.net/forum?id=z2z9suDRjw},
+}
+``` 
+
+***
 
 We provide the code to learn to solve 16 standard combinatorial optimization problems.
 
@@ -21,22 +38,6 @@ Fine-tuning (supervised and unsupervised) is possible on eight new problems:
 * the Maximal Independent Set (MIS)
 * the Maximum Covering Location Problem (MCLP)
 * the Open-Shop Scheduling Problem (OSSP)
-
-
-## Paper
-See [GOAL: A Generalist Combinatorial Optimization Agent Learner](https://openreview.net/forum?id=z2z9suDRjw) for the paper associated with this codebase.
-If you find this code useful, please cite our paper as: 
-
- ``` 
-@article{
-    drakulic2025goal,
-    title={GOAL: A Generalist Combinatorial Optimization Agent Learner},
-    author={Darko Drakulic and Sofia Michel and Jean-Marc Andreoli},
-    booktitle={International Conference on Learning Representations (ICLR)},
-    year={2025},
-    url={https://openreview.net/forum?id=z2z9suDRjw},
-}
-``` 
 
 
 ## Run training on set of problems
