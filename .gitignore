@@ -1,2 +1,4 @@
 *.gz
 *.pyc
+test/*.npz
+test/*.txt
